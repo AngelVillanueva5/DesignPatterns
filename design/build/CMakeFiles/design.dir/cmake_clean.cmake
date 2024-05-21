@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/design.dir/src/FileRead.cpp.o"
+  "CMakeFiles/design.dir/src/FileRead.cpp.o.d"
   "CMakeFiles/design.dir/src/main.cpp.o"
   "CMakeFiles/design.dir/src/main.cpp.o.d"
   "design"

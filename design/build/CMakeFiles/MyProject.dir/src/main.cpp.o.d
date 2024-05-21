@@ -1,4 +1,4 @@
-CMakeFiles/design.dir/src/main.cpp.o: \
+CMakeFiles/MyProject.dir/src/main.cpp.o: \
  /home/angel/school/DesignPatterns/design/src/main.cpp \
  /usr/include/stdc-predef.h \
  /home/angel/school/DesignPatterns/design/src/../include/FileRead.h \

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/design.dir/src/main.cpp.o -o design 
+/usr/bin/c++ CMakeFiles/design.dir/src/main.cpp.o CMakeFiles/design.dir/src/FileRead.cpp.o -o design 

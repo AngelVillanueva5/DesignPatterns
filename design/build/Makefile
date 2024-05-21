@@ -129,6 +129,30 @@ design/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/design.dir/build.make CMakeFiles/design.dir/build
 .PHONY : design/fast
 
+src/FileRead.o: src/FileRead.cpp.o
+.PHONY : src/FileRead.o
+
+# target to build an object file
+src/FileRead.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/design.dir/build.make CMakeFiles/design.dir/src/FileRead.cpp.o
+.PHONY : src/FileRead.cpp.o
+
+src/FileRead.i: src/FileRead.cpp.i
+.PHONY : src/FileRead.i
+
+# target to preprocess a source file
+src/FileRead.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/design.dir/build.make CMakeFiles/design.dir/src/FileRead.cpp.i
+.PHONY : src/FileRead.cpp.i
+
+src/FileRead.s: src/FileRead.cpp.s
+.PHONY : src/FileRead.s
+
+# target to generate assembly for a file
+src/FileRead.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/design.dir/build.make CMakeFiles/design.dir/src/FileRead.cpp.s
+.PHONY : src/FileRead.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... design"
+	@echo "... src/FileRead.o"
+	@echo "... src/FileRead.i"
+	@echo "... src/FileRead.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

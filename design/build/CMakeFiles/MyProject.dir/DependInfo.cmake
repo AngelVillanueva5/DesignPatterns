@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/angel/school/DesignPatterns/design/src/FileRead.cpp" "CMakeFiles/design.dir/src/FileRead.cpp.o" "gcc" "CMakeFiles/design.dir/src/FileRead.cpp.o.d"
-  "/home/angel/school/DesignPatterns/design/src/main.cpp" "CMakeFiles/design.dir/src/main.cpp.o" "gcc" "CMakeFiles/design.dir/src/main.cpp.o.d"
+  "/home/angel/school/DesignPatterns/design/src/FileRead.cpp" "CMakeFiles/MyProject.dir/src/FileRead.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/FileRead.cpp.o.d"
+  "/home/angel/school/DesignPatterns/design/src/main.cpp" "CMakeFiles/MyProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
