@@ -1,4 +1,4 @@
-@startuml
+ @startuml
 interface Component {
   pd : Integer
   returnOutput()
@@ -26,7 +26,6 @@ class Composite {
  output : bool
 }
 class NodeList
-class Converter
 class XOR {
 XOR(input1, input2)
 input1 : bool
@@ -52,7 +51,6 @@ Component <|.. Input
 Composite ..> Iterator
 NodeList <.. Simulator
 Component <.. NodeList
-FileManager <.. Converter
-Simulator ..> Converter
+FileManager <.. Simulator
 FileManager <.. Probe
 @enduml
