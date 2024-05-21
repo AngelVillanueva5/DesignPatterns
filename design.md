@@ -21,8 +21,7 @@ NOT(input1)
 input1 : bool
 output : bool
 }
-class Node
-class Circuit {
+class Composite {
  input : bool
  output : bool
 }
@@ -45,17 +44,15 @@ class Iterator
 
 Component <|.. AND
 Component <|.. OR
-Component <|.. Circuit
+Component <|.. Composite
 Component <|.. XOR
 Component <|.. Probe
 Component <|.. NOT
 Component <|.. Input
-Circuit ..> Iterator
-Simulator ..> Component
-Component ..> Simulator
+Composite ..> Iterator
+NodeList <.. Simulator
+Component <.. NodeList
 FileManager <.. Converter
 Simulator ..> Converter
-NodeList <.. Converter
 FileManager <.. Probe
-Node <.. NodeList
 @enduml
