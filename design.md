@@ -3,7 +3,7 @@ interface Component {
   pd : Integer
   returnOutput()
 }
-class Simulator
+class Circuit
 class AND {
 AND(input1, input2)
 input1 : bool
@@ -49,8 +49,10 @@ Component <|.. Probe
 Component <|.. NOT
 Component <|.. Input
 Composite ..> Iterator
-NodeList <.. Simulator
+NodeList <.. Circuit
 Component <.. NodeList
-FileManager <.. Simulator
+FileManager <.. Circuit
 FileManager <.. Probe
 @enduml
+
+volgens de leraar zag het er goed uit maar is het nog niet helemaal af, we moeten de factory method nog wat verder uitwerken maar volgens hem kunnen we daar veel design patterns in verwerken zoals een prototype via een clone
