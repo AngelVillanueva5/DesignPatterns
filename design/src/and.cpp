@@ -4,6 +4,14 @@ And::And(std::vector<bool> inputs) : Component(inputs){
         std::cout << "too many inputs in and component" << std::endl;
     }
 }
+And::And(std::vector<bool> inputs, int id) : Component(inputs, id){
+    if(inputs .size() > 2){
+        std::cout << "too many inputs in and component" << std::endl;
+    }
+}
+Component* And::clone() const {
+    return new And(*this);
+}
 bool And::execute(){
     if(inputs.size() < 2){
         return false;
