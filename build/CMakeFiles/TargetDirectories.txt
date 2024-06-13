@@ -1,3 +1,0 @@
-C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build/CMakeFiles/design.dir
-C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build/CMakeFiles/edit_cache.dir
-C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build/CMakeFiles/rebuild_cache.dir

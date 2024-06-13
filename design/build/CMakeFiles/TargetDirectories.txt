@@ -1,3 +1,0 @@
-/home/wouter/Documents/school/design/DesignPatterns/design/build/CMakeFiles/design.dir
-/home/wouter/Documents/school/design/DesignPatterns/design/build/CMakeFiles/edit_cache.dir
-/home/wouter/Documents/school/design/DesignPatterns/design/build/CMakeFiles/rebuild_cache.dir
