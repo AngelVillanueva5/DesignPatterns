@@ -1,4 +1,4 @@
-# Install script for directory: /home/angel/school/DesignPatterns/design
+# Install script for directory: /home/wouter/Documents/school/design/DesignPatterns/design
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/angel/school/DesignPatterns/design/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wouter/Documents/school/design/DesignPatterns/design/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

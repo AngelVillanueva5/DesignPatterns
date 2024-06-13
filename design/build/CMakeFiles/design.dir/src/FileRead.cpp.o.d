@@ -1,7 +1,7 @@
 CMakeFiles/design.dir/src/FileRead.cpp.o: \
- /home/angel/school/DesignPatterns/design/src/FileRead.cpp \
+ /home/wouter/Documents/school/design/DesignPatterns/design/src/FileRead.cpp \
  /usr/include/stdc-predef.h \
- /home/angel/school/DesignPatterns/design/src/../include/FileRead.h \
+ /home/wouter/Documents/school/design/DesignPatterns/design/src/../include/FileRead.h \
  /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
