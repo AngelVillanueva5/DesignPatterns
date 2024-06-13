@@ -10,6 +10,9 @@ Probe::Probe(std::vector<bool> inputs, int id) : Component(inputs, id){
         std::cout << "too many inputs in Input component" << std::endl;
     }
 }
+Probe::~Probe(){
+    
+}
 Component* Probe::clone() const {
     return new Probe(*this);
 }

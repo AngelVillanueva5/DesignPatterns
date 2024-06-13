@@ -10,6 +10,9 @@ Xor::Xor(std::vector<bool> inputs, int id) : Component(inputs, id){
         std::cout << "too many inputs in Input component" << std::endl;
     }
 }
+Xor::~Xor(){
+    
+}
 Component* Xor::clone() const {
     return new Xor(*this);
 }

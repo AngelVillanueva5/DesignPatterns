@@ -6,6 +6,15 @@ include_directories(include)
 set(SOURCES
     src/main.cpp
     src/FileRead.cpp
+    src/component.cpp
+    src/and.cpp
+    src/composite.cpp
+    src/input.cpp
+    src/iterator.cpp
+    src/not.cpp
+    src/or.cpp
+    src/probe.cpp
+    src/xor.cpp
 )
 # Add the executable
 add_executable(design ${SOURCES})

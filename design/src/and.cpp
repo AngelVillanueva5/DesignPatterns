@@ -9,6 +9,9 @@ And::And(std::vector<bool> inputs, int id) : Component(inputs, id){
         std::cout << "too many inputs in and component" << std::endl;
     }
 }
+And::~And(){
+    
+}
 Component* And::clone() const {
     return new And(*this);
 }

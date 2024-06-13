@@ -1,0 +1,68 @@
+[
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\main.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\main.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/main.cpp",
+  "output": "CMakeFiles/design.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\FileRead.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\FileRead.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/FileRead.cpp",
+  "output": "CMakeFiles/design.dir/src/FileRead.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\component.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\component.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/component.cpp",
+  "output": "CMakeFiles/design.dir/src/component.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\and.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\and.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/and.cpp",
+  "output": "CMakeFiles/design.dir/src/and.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\composite.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\composite.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/composite.cpp",
+  "output": "CMakeFiles/design.dir/src/composite.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\input.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\input.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/input.cpp",
+  "output": "CMakeFiles/design.dir/src/input.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\iterator.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\iterator.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/iterator.cpp",
+  "output": "CMakeFiles/design.dir/src/iterator.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\not.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\not.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/not.cpp",
+  "output": "CMakeFiles/design.dir/src/not.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\or.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\or.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/or.cpp",
+  "output": "CMakeFiles/design.dir/src/or.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\probe.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\probe.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/probe.cpp",
+  "output": "CMakeFiles/design.dir/src/probe.cpp.obj"
+},
+{
+  "directory": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/design.dir/includes_CXX.rsp -g -o CMakeFiles\\design.dir\\src\\xor.cpp.obj -c \"C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\DesignPatterns\\design\\src\\xor.cpp\"",
+  "file": "C:/Users/wouter boerenkamps/Documents/school/depa/DesignPatterns/design/src/xor.cpp",
+  "output": "CMakeFiles/design.dir/src/xor.cpp.obj"
+}
+]

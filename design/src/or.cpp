@@ -10,6 +10,9 @@ Or::Or(std::vector<bool> inputs, int id) : Component(inputs, id){
         std::cout << "too many inputs in Input component" << std::endl;
     }
 }
+Or::~Or(){
+    
+}
 Component* Or::clone() const {
     return new Or(*this);
 }

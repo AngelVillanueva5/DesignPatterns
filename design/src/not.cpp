@@ -10,6 +10,9 @@ Not::Not(std::vector<bool> inputs, int id) : Component(inputs, id){
         std::cout << "too many inputs in Input component" << std::endl;
     }
 }
+Not::~Not(){
+    
+}
 Component* Not::clone() const {
     return new Not(*this);
 }

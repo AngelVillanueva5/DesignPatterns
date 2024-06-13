@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <vector>
 class Component{
@@ -5,8 +6,8 @@ class Component{
     Component(std::vector<bool> inputs);
     Component(std::vector<bool> inputs,int id);
     virtual ~Component();
-    virtual bool execute();
-    virtual Component  *clone() const   = 0;
+    virtual bool execute() {return false;};
+    virtual Component  *clone() const = 0;
     private:
         int pd = 0;
         std::vector<bool> inputs;
