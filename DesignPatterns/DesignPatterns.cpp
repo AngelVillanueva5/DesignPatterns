@@ -1,20 +1,48 @@
-/ DesignPatterns.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <map>
+#include <vector>
+#include <sstream>
+#include <algorithm>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+void fileOpen() {
+    
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void fileClose() {
+    
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+void fileRead() {
+    
+}
+
+int main() {
+    std::ifstream file;
+    std::string fileName = "D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/circuit1.txt";
+    std::map<std::string, std::string> nodes;
+    std::map<std::string, std::vector<std::string>> adjList;
+
+    fileOpen(file, fileName);
+    fileRead(file, nodes, adjList);
+    fileClose(file);
+
+    // Print the nodes
+    std::cout << "Nodes:" << std::endl;
+    for (const auto& pair : nodes) {
+        std::cout << pair.first << ": " << pair.second << std::endl;
+    }
+
+    // Print the adjacency list
+    std::cout << "\nAdjacency List:" << std::endl;
+    for (const auto& pair : adjList) {
+        std::cout << pair.first << ": ";
+        for (const auto& adj : pair.second) {
+            std::cout << adj << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
