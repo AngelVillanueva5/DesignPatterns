@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\And.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Composite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\FileRead.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Not.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Or.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Probe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Xor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\And.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Composite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\FileRead.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Not.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Or.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Probe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Xor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\DesignPatterns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57484164-943E-4066-BC34-5BD92A0EDBC6}|DesignPatterns\\DesignPatterns.vcxproj|solutionrelative:DesignPatterns\\DesignPatterns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Xor.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Xor.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.h",
+              "RelativeToolTip": "DesignPatterns\\Xor.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:54:14.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Probe.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Probe.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.h",
+              "RelativeToolTip": "DesignPatterns\\Probe.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:54:07.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Or.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Or.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.h",
+              "RelativeToolTip": "DesignPatterns\\Or.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Not.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Not.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.h",
+              "RelativeToolTip": "DesignPatterns\\Not.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:43.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Composite.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Composite.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.cpp",
+              "RelativeToolTip": "DesignPatterns\\Composite.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:52:36.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Component.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Component.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.cpp",
+              "RelativeToolTip": "DesignPatterns\\Component.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:19.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileRead.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\FileRead.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.cpp",
+              "RelativeToolTip": "DesignPatterns\\FileRead.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:43.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Input.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.cpp",
+              "RelativeToolTip": "DesignPatterns\\Input.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:52:15.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Iterator.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Iterator.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.cpp",
+              "RelativeToolTip": "DesignPatterns\\Iterator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:59.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "And.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\And.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.cpp",
+              "RelativeToolTip": "DesignPatterns\\And.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:24.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Input.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Input.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Input.h",
+              "RelativeToolTip": "DesignPatterns\\Input.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:26.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileRead.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\FileRead.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\FileRead.h",
+              "RelativeToolTip": "DesignPatterns\\FileRead.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:16.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Composite.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Composite.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Composite.h",
+              "RelativeToolTip": "DesignPatterns\\Composite.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:52:45.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Component.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Component.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Component.h",
+              "RelativeToolTip": "DesignPatterns\\Component.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:00.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "And.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\And.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\And.h",
+              "RelativeToolTip": "DesignPatterns\\And.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:52:52.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Not.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Not.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Not.cpp",
+              "RelativeToolTip": "DesignPatterns\\Not.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Or.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Or.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Or.cpp",
+              "RelativeToolTip": "DesignPatterns\\Or.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:29.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Probe.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Probe.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Probe.cpp",
+              "RelativeToolTip": "DesignPatterns\\Probe.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:51:48.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Xor.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\Xor.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Xor.cpp",
+              "RelativeToolTip": "DesignPatterns\\Xor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:52:25.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Iterator.h",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.h",
+              "RelativeDocumentMoniker": "DesignPatterns\\Iterator.h",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\Iterator.h",
+              "RelativeToolTip": "DesignPatterns\\Iterator.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T13:53:36.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DesignPatterns.cpp",
+              "DocumentMoniker": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\DesignPatterns.cpp",
+              "RelativeDocumentMoniker": "DesignPatterns\\DesignPatterns.cpp",
+              "ToolTip": "C:\\Users\\wouter boerenkamps\\Documents\\school\\depa\\v2\\DesignPatterns\\DesignPatterns\\DesignPatterns.cpp",
+              "RelativeToolTip": "DesignPatterns\\DesignPatterns.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T13:40:14.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
