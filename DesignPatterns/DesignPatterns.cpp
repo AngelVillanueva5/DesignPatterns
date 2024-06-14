@@ -1,22 +1,19 @@
 // DesignPatterns.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "FileRead.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::map<std::string, std::string> nodes;
+    std::map<std::string, std::vector<std::string>> adjList;
+
+    FileRead fileread;
+
+    fileread.fileOpen("D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/circuit1.txt");
+
+    fileread.fileRead(nodes, adjList);
+
+    fileread.fileClose();
 }
 
-    // Print the adjacency list
-    std::cout << "\nAdjacency List:" << std::endl;
-    for (const auto& pair : adjList) {
-        std::cout << pair.first << ": ";
-        for (const auto& adj : pair.second) {
-            std::cout << adj << " ";
-        }
-        std::cout << std::endl;
-    }
-
-    return 0;
-}
