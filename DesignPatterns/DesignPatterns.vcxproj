@@ -127,7 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="And.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Composite.cpp" />
     <ClCompile Include="DesignPatterns.cpp" />
+    <ClCompile Include="FileRead.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Not.cpp" />
+    <ClCompile Include="Or.cpp" />
+    <ClCompile Include="Probe.cpp" />
+    <ClCompile Include="Xor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="And.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Composite.h" />
+    <ClInclude Include="FileRead.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Not.h" />
+    <ClInclude Include="Or.h" />
+    <ClInclude Include="Probe.h" />
+    <ClInclude Include="Xor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
