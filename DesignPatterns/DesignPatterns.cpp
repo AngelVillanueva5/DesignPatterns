@@ -1,11 +1,23 @@
-/ DesignPatterns.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// DesignPatterns.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-
+#include "Composite.h"
+#include "And.h"
 int main()
-{
-    std::cout << "Hello World!\n";
+{   
+    And* and1 = new And({ false,true });
+    And* and2 = new And({ true,true });
+    And* and3 = new And({ true,true });
+    Composite* root = new Composite({ true,true });
+    root->add(and1);
+    root->add(and2);
+    root->add(and3);
+    std::cout << root->execute() << std::endl;
+    root->remove(and1);
+    std::cout << root->execute() << std::endl;
+    root->getChildren();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

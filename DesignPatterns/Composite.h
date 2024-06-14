@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include "Component.h"
+#include "Iterator.h"
 
 class Composite : public Component {
 public:
@@ -11,6 +12,10 @@ public:
     void add(Component* com);
     void remove(Component* com);
     std::vector<Component*> getChildren();
+    virtual Component* clone() const override;
+
+    ComponentIterator begin();
+    ComponentIterator end();
 
 private:
     std::vector<Component*> children;

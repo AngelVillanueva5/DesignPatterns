@@ -9,6 +9,5 @@ public:
     virtual Component* clone() const override;
 private:
     int pd = 0;
-    std::vector<bool> inputs;
     static And m_cInstance;
 };

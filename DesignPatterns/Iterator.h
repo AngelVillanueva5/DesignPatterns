@@ -1,12 +1,15 @@
-#include "component.h"
+#pragma once
+#include <vector>
+#include "Component.h"
+
 class ComponentIterator {
 public:
-    ComponentIterator();
-    virtual ~ComponentIterator();
-    virtual Component getNext();
-    virtual bool hasMore();
-private:
-    std::vector<Component> cache;
-    int currentPos = 0;
+    ComponentIterator(std::vector<Component*>::iterator it);
 
+    ComponentIterator& operator++();
+    Component* operator*() const;
+    bool operator!=(const ComponentIterator& other) const;
+
+private:
+    std::vector<Component*>::iterator current;
 };
