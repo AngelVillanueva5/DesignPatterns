@@ -11,10 +11,11 @@ public:
 	FileRead();
 	~FileRead();
 
-	void fileOpen(std::ifstream& file, const std::string& fileName);
-	void fileClose(std::ifstream& file);
-	void fileRead(std::ifstream& file, std::map<std::string, std::string>& nodes, std::map<std::string, std::vector<std::string>>& adjList);
+	void fileOpen(const std::string& fileName);
+	void fileClose();
+	void fileRead(std::map<std::string, std::string>& nodes, std::map<std::string, std::vector<std::string>>& adjList);
+
 private:
-	
+	std::ifstream _file;
 	
 };

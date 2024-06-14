@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\And.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\And.obj
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\Component.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\Component.obj
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\Composite.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\Composite.obj
@@ -10,3 +11,17 @@ C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatter
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\Or.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\Or.obj
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\Probe.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\Probe.obj
 C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\Xor.cpp;C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\DesignPatterns\x64\Debug\Xor.obj
+=======
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\And.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\And.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Component.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Component.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Composite.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Composite.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\DesignPatterns.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\DesignPatterns.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\FileRead.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\FileRead.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\GraphGenerator.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\GraphGenerator.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Input.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Input.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Iterator.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Iterator.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Not.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Not.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Or.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Or.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Probe.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Probe.obj
+D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\Xor.cpp;D:\SchoolPresentaties\GRINDSET\DesignPatterns\DesignPatterns\x64\Debug\Xor.obj
+>>>>>>> fc7103ae90d92b972796d2cb7f66038995680d02
