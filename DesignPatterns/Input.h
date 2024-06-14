@@ -1,8 +1,8 @@
 #include "Component.h"
 class Input : public Component {
 public:
-    Input(std::vector<bool> inputs);
-    Input(std::vector<bool> inputs, int id);
+    Input();
+    Input(std::string id);
     virtual ~Input();
     virtual bool execute() override;
     virtual Component* clone() const override;

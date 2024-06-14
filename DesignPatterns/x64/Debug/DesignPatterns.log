@@ -1,8 +1,10 @@
-<<<<<<< HEAD
-﻿  Composite.cpp
+﻿  And.cpp
+  Composite.cpp
   DesignPatterns.cpp
+  Input.cpp
+  Not.cpp
+  Or.cpp
+  Probe.cpp
+  Xor.cpp
   Generating Code...
   DesignPatterns.vcxproj -> C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\x64\Debug\DesignPatterns.exe
-=======
-﻿  DesignPatterns.vcxproj -> D:\SchoolPresentaties\GRINDSET\DesignPatterns\x64\Debug\DesignPatterns.exe
->>>>>>> b3d4919cbf1d8062637ac29cd7fbb540fa5374d1

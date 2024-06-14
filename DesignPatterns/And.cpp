@@ -1,20 +1,16 @@
 #include "And.h"
 #include <iostream>
-And::And(std::vector<bool> inputs) : Component(inputs) {
-    if (inputs.size() > 2) {
-        std::cout << "too many inputs in and component" << std::endl;
-    }
+And And::m_cInstance("AND");
+And::And() : Component() {
+
 }
-And::And(std::vector<bool> inputs, int id) : Component(inputs, id) {
-    if (inputs.size() > 2) {
-        std::cout << "too many inputs in and component" << std::endl;
-    }
+And::And(std::string id) : Component(id) {
 }
 And::~And() {
 
 }
 Component* And::clone() const {
-    return new And(*this);
+    return new And;
 }
 bool And::execute() {
     std::cout << "and execute" << std::endl;

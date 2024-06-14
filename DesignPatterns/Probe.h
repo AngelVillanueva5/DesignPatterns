@@ -1,8 +1,8 @@
 #include "Component.h"
 class Probe : public Component {
 public:
-    Probe(std::vector<bool> inputs);
-    Probe(std::vector<bool> inputs, int id);
+    Probe();
+    Probe(std::string id);
     virtual ~Probe();
     virtual bool execute() override;
     virtual Component* clone() const override;

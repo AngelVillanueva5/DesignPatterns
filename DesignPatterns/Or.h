@@ -1,8 +1,8 @@
 #include "Component.h"
 class Or : public Component {
 public:
-    Or(std::vector<bool> inputs);
-    Or(std::vector<bool> inputs, int id);
+    Or();
+    Or(std::string id);
     virtual ~Or();
     virtual bool execute() override;
     virtual Component* clone() const override;

@@ -1,19 +1,18 @@
 #include "Input.h"
-Input::Input(std::vector<bool> inputs) : Component(inputs) {
-    if (inputs.size() > 1) {
+Input Input::m_cInstance("INPUT");
+Input::Input() : Component() {
+    /*if (inputs.size() > 1) {
         std::cout << "too many inputs in Input component" << std::endl;
-    }
+    }*/
 }
-Input::Input(std::vector<bool> inputs, int id) : Component(inputs, id) {
-    if (inputs.size() > 2) {
-        std::cout << "too many inputs in Input component" << std::endl;
-    }
+Input::Input(std::string id) : Component(id) {
+
 }
 Input::~Input() {
 
 }
 Component* Input::clone() const {
-    return new Input(*this);
+    return new Input;
 }
 bool Input::execute() {
     return inputs[0];

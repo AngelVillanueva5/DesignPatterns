@@ -5,7 +5,8 @@
 
 class Composite : public Component {
 public:
-    Composite(std::vector<bool> inputs);
+    Composite();
+    Composite(std::string id);
     virtual ~Composite();
 
     virtual bool execute() override;
@@ -19,4 +20,5 @@ public:
 
 private:
     std::vector<Component*> children;
+    static Composite m_cInstance;
 };

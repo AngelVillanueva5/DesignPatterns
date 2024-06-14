@@ -1,8 +1,9 @@
 #include "Component.h"
-Component::Component(std::vector<bool> inputs) {
-    this->inputs = inputs;
+Component::Component() {
 }
-Component::Component(std::vector<bool> inputs, int id) {
+Component::Component(std::string id) {
+}
+void Component::setInputs(std::vector<bool> inputs) {
     this->inputs = inputs;
 }
 Component::~Component() {

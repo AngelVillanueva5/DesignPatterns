@@ -1,8 +1,8 @@
 #include "Component.h"
 class Not : public Component {
 public:
-    Not(std::vector<bool> inputs);
-    Not(std::vector<bool> inputs, int id);
+    Not();
+    Not(std::string id);
     virtual ~Not();
     virtual bool execute() override;
     virtual Component* clone() const override;

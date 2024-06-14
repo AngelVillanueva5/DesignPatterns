@@ -1,7 +1,8 @@
 #include "Composite.h"
 #include <algorithm>
-
-Composite::Composite(std::vector<bool> inputs) : Component(inputs) {}
+Composite Composite::m_cInstance("Composite");
+Composite::Composite() : Component() {}
+Composite::Composite(std::string id) : Component(id) {}
 
 Composite::~Composite() {
     for (Component* child : children) {
@@ -32,7 +33,7 @@ std::vector<Component*> Composite::getChildren() {
 }
 
 Component* Composite::clone() const {
-    Composite* newComposite = new Composite(this->inputs);
+    Composite* newComposite = new Composite();
     for (Component* child : children) {
         newComposite->add(child->clone());
     }

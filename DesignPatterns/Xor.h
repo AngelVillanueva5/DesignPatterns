@@ -1,8 +1,8 @@
 #include "Component.h"
 class Xor : public Component {
 public:
-    Xor(std::vector<bool> inputs);
-    Xor(std::vector<bool> inputs, int id);
+    Xor();
+    Xor(std::string id);
     virtual ~Xor();
     virtual bool execute() override;
     virtual Component* clone() const override;
