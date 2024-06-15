@@ -1,0 +1,23 @@
+# Circuit1.txt
+# 
+# Full-adder. Deze file bevat een correct circuit
+# 
+#
+#
+# Description of all the nodes
+#
+A:	INPUT_LOW;
+B:	INPUT_LOW;
+Cout:	PROBE;
+S:	PROBE; 
+NODE1:	OR;
+NODE2:	AND;
+
+#
+#
+# Description of all the edges
+#
+A:	NODE1,NODE2;
+B:	NODE1,NODE2;
+NODE1:	Cout;
+NODE2:	S;

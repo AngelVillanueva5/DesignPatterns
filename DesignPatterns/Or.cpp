@@ -17,5 +17,13 @@ Component* Or::clone() const {
     return new Or;
 }
 bool Or::execute() {
-    return (!inputs[0]);
+    for (int i = 0; i < inputs.size(); i++)
+    {
+        if (inputs[i] == true)
+        {
+            return true;
+        }
+    }
+    return false;
+    //return (!inputs[0]);
 }

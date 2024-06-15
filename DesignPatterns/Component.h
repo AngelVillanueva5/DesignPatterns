@@ -8,7 +8,7 @@ public:
     virtual ~Component();
     virtual bool execute() { return false; };
     virtual Component* clone() const = 0;
-    virtual void setInputs(std::vector<bool> inputs);
+    virtual void setInputs(bool input);
 protected:
     int pd = 0;
     std::vector<bool> inputs;

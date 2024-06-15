@@ -2,11 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-<<<<<<< HEAD
-      <FullPath>C:\Users\wouter boerenkamps\Documents\school\depa\v2\DesignPatterns\x64\Debug\DesignPatterns.exe</FullPath>
-=======
       <FullPath>D:\SchoolPresentaties\GRINDSET\DesignPatterns\x64\Debug\DesignPatterns.exe</FullPath>
->>>>>>> fc7103ae90d92b972796d2cb7f66038995680d02
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

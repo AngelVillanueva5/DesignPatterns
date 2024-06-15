@@ -74,17 +74,7 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 			}
 		}
 	}
-	// Print the adjacency list
-	std::cout << "\nAdjacency List:" << std::endl;
-	for (const auto& pair : adjList)
-	{
-		std::cout << pair.first << ": ";
-		for (const auto& adj : pair.second)
-		{
-			std::cout << adj << " ";
-		}
-		std::cout << std::endl;
-	}
+	
 
 }
 

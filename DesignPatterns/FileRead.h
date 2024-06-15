@@ -6,6 +6,8 @@
 #include <sstream>
 #include <algorithm>
 
+#include "Circuit.h"
+
 class FileRead {
 public:
 	FileRead();

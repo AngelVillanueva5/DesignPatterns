@@ -18,5 +18,5 @@ Component* Probe::clone() const {
     return new Probe;
 }
 bool Probe::execute() {
-    return (!inputs[0]);
+    return (inputs[0]);
 }
