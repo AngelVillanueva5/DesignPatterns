@@ -1,2 +1,2 @@
-Value S: 0
-Value Cout: 0
+Value S: 1
+Value Cout: 1

@@ -40,9 +40,9 @@ bool Circuit::checkLoops(std::map<std::string, std::vector<std::string>> adjList
 	for (int nodeListIterator = 0; nodeListIterator < nodeList.size(); nodeListIterator++)
 	{
 		std::map<std::string, std::vector<std::string>>::iterator adjecencyIterator = adjList.find(nodeList[nodeListIterator]);
-		std::vector<std::string> test2 = adjecencyIterator->second;
+		std::vector<std::string> adjecencyVector = adjecencyIterator->second;
 
-		for (const std::string& edge : test2)
+		for (const std::string& edge : adjecencyVector)
 		{
 			for (int edgeIterator = 0; edgeIterator < nodeListIterator; edgeIterator++)
 			{
@@ -87,24 +87,28 @@ void Circuit::simulateCircuit()
 
 	}
 
-	// code can be uncommented to test outputs
-	std::map<std::string, Component*>::iterator nodeMapIterator1 = nodeObjecMap.find("S");
-	Component* component1 = nodeMapIterator1->second;
-
-	bool valueS = component1->execute();
-
-	std::map<std::string, Component*>::iterator nodeMapIterator2 = nodeObjecMap.find("Cout");
-	Component* component2 = nodeMapIterator2->second;
-
-	bool valueCout = component2->execute();
-
-	std::cout << "Value S is: " << valueS << std::endl;
-
-	std::cout << "Value Cout is: " << valueCout << std::endl;
-
-	file.fileWrite(valueS, valueCout);
+	
 
 }
+
+void Circuit::writeResult() 
+{
+	std::vector<std::string> probeExecute = file.getProbes();
+	std::map<std::string, Component*> nodeObjecMap = graph.getNodeList();
+
+	std::map<std::string, bool> probeResults;
+
+	for (int probeIterator = 0; probeIterator < probeExecute.size(); probeIterator++) {
+		// code can be uncommented to test outputs
+		std::map<std::string, Component*>::iterator nodeMapIterator1 = nodeObjecMap.find(probeExecute[probeIterator]);
+		Component* component1 = nodeMapIterator1->second;
+		probeResults.insert(std::make_pair(probeExecute[probeIterator], component1->execute()));
+	}
+
+	file.fileWrite(probeResults);
+}
+
+
 
 
 // Singleton design pattern

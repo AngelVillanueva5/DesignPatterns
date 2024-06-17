@@ -7,7 +7,7 @@
 #
 #
 # Description of all the nodes
-A:		INPUT_HIGH;
+A:		INPUT_LOW;
 NODE0:		NOT;
 NODE1:		NOT;
 NODE2:		NOT;

@@ -9,7 +9,7 @@
 int main(int argc, const char* argv[])
 {
     //std::string argPath = argv[1];
-	std::string argPath = "D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/circuitTest.txt";
+	std::string argPath = "D:/DesignPatterns/circuits/circuit4.txt";
 	Circuit& circuit = Circuit::getInstance();
 	if (circuit.initializeCircuit(argPath) == false)
 	{
@@ -17,6 +17,8 @@ int main(int argc, const char* argv[])
 	}
 
 	circuit.simulateCircuit();
+
+	circuit.writeResult();
 	
 
 	delete& Circuit::getInstance();

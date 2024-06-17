@@ -25,5 +25,4 @@ bool Or::execute() {
         }
     }
     return false;
-    //return (!inputs[0]);
 }

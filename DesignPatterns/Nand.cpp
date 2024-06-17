@@ -19,10 +19,6 @@ Component* Nand::clone() const
 bool Nand::execute()
 {
     std::cout << "NAND execute" << std::endl;
-    if (inputs.size() < 2)
-    {
-        return false;
-    }
     if (inputs[0] && inputs[1])
     {
         return false;

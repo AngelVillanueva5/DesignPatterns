@@ -60,6 +60,9 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 					std::cout << "Node: " << key << " is empty, please correct the inserted file" << std::endl;
 				}
 				nodes[key] = value;
+				if (value == "PROBE") {
+					probes.push_back(key);
+				}
 				
 			}
 		}
@@ -86,6 +89,11 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 
 }
 
+std::vector<std::string> FileRead::getProbes() {
+
+	return probes;
+}
+
 bool FileRead::checkInserts(std::map<std::string, std::string>& nodes)
 {
 	std::vector<std::string> nodeList = getInsertOrder();
@@ -103,11 +111,20 @@ std::vector<std::string> FileRead::getInsertOrder()
 }
 
 
-void FileRead::fileWrite(bool S, bool Cout)
+void FileRead::fileWrite(std::map<std::string, bool> iterator)
 {
 	std::ofstream myfile;
-	myfile.open("example.txt");
-	myfile << "Value S: " << S << std::endl;
-	myfile << "Value Cout: " << Cout << std::endl;
+	myfile.open("circuitResult.txt");
+
+	std::map<std::string, bool>::iterator nodeIterator = iterator.begin();
+
+	while (nodeIterator != iterator.end())
+	{
+		std::string probeName = nodeIterator->first;
+		bool probeResult = nodeIterator->second;
+		myfile << "Probe " << probeName << ": " << probeResult << std::endl;
+		nodeIterator++;
+		
+	}
 	myfile.close();
 }

@@ -18,11 +18,13 @@ public:
 
 	bool checkInserts(std::map<std::string, std::string>& nodes);
 
-	void fileWrite(bool S, bool Cout);
+	void fileWrite(std::map<std::string, bool>);
 	std::vector<std::string> getInsertOrder();
+	std::vector<std::string> getProbes();
 
 private:
 	std::ifstream _file;
 	std::vector<std::string> insertOrder;
+	std::vector<std::string> probes;
 	
 };

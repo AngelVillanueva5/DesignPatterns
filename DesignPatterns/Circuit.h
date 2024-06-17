@@ -10,6 +10,9 @@ public:
 	
 	bool initializeCircuit(std::string file);
 	void simulateCircuit();
+
+	void writeResult();
+
 	bool checkLoops(std::map<std::string, std::vector<std::string>> adjList);
 
 	static Circuit& getInstance();

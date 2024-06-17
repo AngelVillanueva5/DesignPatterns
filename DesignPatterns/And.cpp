@@ -13,10 +13,5 @@ Component* And::clone() const {
     return new And;
 }
 bool And::execute() {
-    std::cout << "and execute" << std::endl;
-    if (inputs.size() < 2) {
-        return false;
-    }
-   
     return (inputs[0] && inputs[1]);
 }
