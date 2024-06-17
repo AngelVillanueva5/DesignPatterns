@@ -22,12 +22,13 @@ bool Not::execute() {
 
 bool Not::checkComponent()
 {
-    if (inputs.size() > 0)
+    if (inputs.size() < 1)
     {
-        return true;
+        return false;
+
     }
     else
     {
-        return false;
+        return true;
     }
 }

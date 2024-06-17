@@ -74,11 +74,10 @@ bool GraphGenerator::generateEdges(std::map<std::string, std::vector<std::string
 		std::vector<std::string> edges = edgeStringIterator->second;
 
 		std::map<std::string, Component*>::iterator nodeMapIterator2 = nodeObjecMap.find(nodeName);
-		std::cout << "Edges are: " << std::endl;
 		for (const std::string& edge : edges)
 		{
 			std::map<std::string, Component*>::iterator nodeMapIterator = nodeObjecMap.find(edge);
-			std::cout << edge << std::endl;
+
 
 			component.push_back(nodeMapIterator->second);
 			

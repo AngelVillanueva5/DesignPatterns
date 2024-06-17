@@ -9,7 +9,7 @@ public:
     virtual bool execute() { return false; };
     virtual Component* clone() const = 0;
     virtual void setInputs(bool input);
-    virtual bool checkComponent() { return false; };
+    virtual bool checkComponent() { return true; };
 protected:
     int pd = 0;
     std::vector<bool> inputs;
