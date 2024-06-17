@@ -19,3 +19,15 @@ Component* Not::clone() const {
 bool Not::execute() {
     return (!inputs[0]);
 }
+
+bool Not::checkComponent()
+{
+    if (inputs.size() > 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}

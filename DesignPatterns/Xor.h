@@ -6,6 +6,7 @@ public:
     virtual ~Xor();
     virtual bool execute() override;
     virtual Component* clone() const override;
+    virtual bool checkComponent() override;
 private:
     int pd = 0;
     static Xor m_cInstance;

@@ -26,3 +26,15 @@ bool Or::execute() {
     }
     return false;
 }
+
+bool Or::checkComponent()
+{
+    if (inputs.size() < 2)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}

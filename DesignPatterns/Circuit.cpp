@@ -58,7 +58,7 @@ bool Circuit::checkLoops(std::map<std::string, std::vector<std::string>> adjList
 	return true;
 }
 
-void Circuit::simulateCircuit()
+bool Circuit::simulateCircuit()
 {
 	std::vector<std::string> insertOrder = file.getInsertOrder();
 	std::map<std::string, Component*> nodeObjecMap;
@@ -79,16 +79,19 @@ void Circuit::simulateCircuit()
 		std::vector<Component*> edgeVector = adjecencyIterator->second;
 
 
+
 		bool executeValue = executeComponent->execute();
 		for (std::vector<Component*>::iterator it = edgeVector.begin(); it != edgeVector.end(); ++it)
 		{
+			if (executeComponent->checkComponent() == false)
+			{
+				std::cout << "Invalid inputs" << std::endl;
+				return false;
+			}
 			(*it)->setInputs(executeValue);
 		}
 
 	}
-
-	
-
 }
 
 void Circuit::writeResult() 

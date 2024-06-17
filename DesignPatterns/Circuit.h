@@ -9,7 +9,7 @@ public:
 	Circuit();
 	
 	bool initializeCircuit(std::string file);
-	void simulateCircuit();
+	bool simulateCircuit();
 
 	void writeResult();
 

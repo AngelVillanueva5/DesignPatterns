@@ -28,3 +28,15 @@ bool Nand::execute()
         return true;
     }
 }
+
+bool Nand::checkComponent()
+{
+    if (inputs.size() < 2)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}

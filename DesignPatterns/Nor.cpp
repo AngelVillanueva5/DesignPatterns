@@ -32,3 +32,15 @@ bool Nor::execute()
     }
     return true;
 }
+
+bool Nor::checkComponent()
+{
+    if (inputs.size() < 2)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}

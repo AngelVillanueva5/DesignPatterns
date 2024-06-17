@@ -8,6 +8,7 @@ public:
     virtual ~Nand();
     virtual bool execute() override;
     virtual Component* clone() const override;
+    virtual bool checkComponent() override;
 private:
     int pd = 0;
     static Nand m_cInstance;

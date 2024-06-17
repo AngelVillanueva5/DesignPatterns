@@ -32,3 +32,15 @@ bool Xor::execute() {
     }
     return returnState;
 }
+
+bool Xor::checkComponent()
+{
+    if (inputs.size() < 2)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
