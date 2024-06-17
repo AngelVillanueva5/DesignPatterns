@@ -56,6 +56,7 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 				key.erase(remove_if(key.begin(), key.end(), ::isspace), key.end());
 				value.erase(remove_if(value.begin(), value.end(), ::isspace), value.end());
 				nodes[key] = value;
+				
 			}
 		}
 		if (readEdges) {
@@ -70,12 +71,26 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 				while (std::getline(valuesStream, value, ',')) {
 					value.erase(remove_if(value.begin(), value.end(), ::isspace), value.end());
 					adjList[key].push_back(value);
+					
 				}
+				insertOrder.push_back(key);
 			}
 		}
 	}
-	
 
 }
 
+std::vector<std::string> FileRead::getInsertOrder()
+{
+	return insertOrder;
+}
 
+
+void FileRead::fileWrite(bool S, bool Cout)
+{
+	std::ofstream myfile;
+	myfile.open("example.txt");
+	myfile << "Value S: " << S << std::endl;
+	myfile << "Value Cout: " << Cout << std::endl;
+	myfile.close();
+}

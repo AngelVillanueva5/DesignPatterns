@@ -7,7 +7,7 @@
 # Description of all the nodes
 #
 A:	    INPUT_HIGH;
-B:	    INPUT_HIGH;
+B:	    INPUT_LOW;
 Cin: 	INPUT_LOW;
 Cout:	PROBE;
 S:	    PROBE;
@@ -20,7 +20,7 @@ NODE6:	OR;
 NODE7:	NOT;
 NODE8:	NOT;
 NODE9:	AND;
-NODE91:	AND;
+NODE10:	AND;
 NODE11:	OR;
 
 #

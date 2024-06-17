@@ -1,40 +1,11 @@
 #include "GraphGenerator.h"
 
 #include "FactoryMethod.h"
-#include "FileRead.h"
-#include "Component.h"
 
 GraphGenerator::GraphGenerator() {}
 
 void GraphGenerator::generateGraph() 
 {
-	std::map<std::string, std::string> nodes;
-	std::map<std::string, std::vector<std::string>> adjList;
-	FileRead file;
-
-	file.fileOpen("D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/circuit1.txt");
-
-	file.fileRead(nodes, adjList);
-
-	file.fileClose();
-
-	// Print the adjacency list
-	std::cout << "\nAdjacency List:" << std::endl;
-	for (const auto& pair : adjList)
-	{
-		std::cout << pair.first << ": ";
-		for (const auto& adj : pair.second)
-		{
-			std::cout << adj << " ";
-		}
-		std::cout << std::endl;
-	}
-
-	generateNodes(nodes);
-
-	generateEdges(adjList);
-
-	executeAdjList();
 
 }
 
@@ -73,8 +44,6 @@ void GraphGenerator::generateNodes(std::map<std::string, std::string>& nodeStrin
 		nodeObjecMap.insert(std::make_pair(nodeIterator->first, component));
 		nodeIterator++;
 	}
-
-
 }
 
 
@@ -110,10 +79,22 @@ void GraphGenerator::generateEdges(std::map<std::string, std::vector<std::string
 }
 
 
+std::map<std::string, std::vector<Component*>> GraphGenerator::getAdjecencyList()
+{
+	return AdjecencyList;
+}
+
+std::map<std::string, Component*> GraphGenerator::getNodeList()
+{
+	return nodeObjecMap;
+}
+
 // TEMPORARY EXECUTE CIRCUIT FUNCTION
 void GraphGenerator::executeAdjList()
 {
 	std::map<std::string, std::vector<Component*>>::iterator AdjecencyIterator = AdjecencyList.begin();
+
+
 
 	while (AdjecencyIterator != AdjecencyList.end())
 	{
