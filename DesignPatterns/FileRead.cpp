@@ -55,6 +55,10 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 			if (std::getline(iss, key, ':') && std::getline(iss, value, ';')) {
 				key.erase(remove_if(key.begin(), key.end(), ::isspace), key.end());
 				value.erase(remove_if(value.begin(), value.end(), ::isspace), value.end());
+				if (key.size() > 1 && value == "")
+				{
+					std::cout << "Node: " << key << " is empty, please correct the inserted file" << std::endl;
+				}
 				nodes[key] = value;
 				
 			}
@@ -78,6 +82,19 @@ void FileRead::fileRead(std::map<std::string, std::string>& nodes,
 		}
 	}
 
+
+
+}
+
+bool FileRead::checkInserts(std::map<std::string, std::string>& nodes)
+{
+	std::vector<std::string> nodeList = getInsertOrder();
+	std::map<std::string, std::string>::iterator nodeIterator = nodes.find("");
+	for (const std::string& nodeName : nodeList)
+	{
+
+	}
+	return true;
 }
 
 std::vector<std::string> FileRead::getInsertOrder()

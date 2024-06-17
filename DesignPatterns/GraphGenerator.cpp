@@ -10,8 +10,8 @@ void GraphGenerator::generateGraph()
 }
 
 
-// GENERATE LIST OF EXISTING NODES
-void GraphGenerator::generateNodes(std::map<std::string, std::string>& nodeStringMap)
+// Generate map of nodes
+bool GraphGenerator::generateNodes(std::map<std::string, std::string>& nodeStringMap)
 {
 
 	std::map<std::string, std::string>::iterator nodeIterator = nodeStringMap.begin();
@@ -39,16 +39,28 @@ void GraphGenerator::generateNodes(std::map<std::string, std::string>& nodeStrin
 			nodeIterator++;
 			continue;
 		}
-
 		Component* component = Factory::FactoryMethod<std::string, Component>::create(gateType);
+		try
+		{
+			if (component == nullptr)
+			{
+				throw nodeIterator->first;
+			}
+		}
+		catch (std::string nodeName)
+		{
+			std::cout << "Node " << nodeName << " undefined or invalid, please correct the inserted circuit" << std::endl;
+			return false;
+		}
+
 		nodeObjecMap.insert(std::make_pair(nodeIterator->first, component));
 		nodeIterator++;
 	}
 }
 
 
-// CONNECT EDGES OF NODES
-void GraphGenerator::generateEdges(std::map<std::string, std::vector<std::string>> edgeStringMap)
+// generate map with edges
+bool GraphGenerator::generateEdges(std::map<std::string, std::vector<std::string>> edgeStringMap)
 {
 	
 	std::map<std::string, std::vector<std::string>>::iterator edgeStringIterator = edgeStringMap.begin();
@@ -72,10 +84,15 @@ void GraphGenerator::generateEdges(std::map<std::string, std::vector<std::string
 			
 
 		}
-
+		if (component.size() <= 0)
+		{
+			std::cout << nodeName << "edge invalid" << std::endl;
+			return false;
+		}
 		AdjecencyList.insert(std::make_pair(nodeName, component));
 		edgeStringIterator++;
 	}
+	return true;
 }
 
 
@@ -87,45 +104,4 @@ std::map<std::string, std::vector<Component*>> GraphGenerator::getAdjecencyList(
 std::map<std::string, Component*> GraphGenerator::getNodeList()
 {
 	return nodeObjecMap;
-}
-
-// TEMPORARY EXECUTE CIRCUIT FUNCTION
-void GraphGenerator::executeAdjList()
-{
-	std::map<std::string, std::vector<Component*>>::iterator AdjecencyIterator = AdjecencyList.begin();
-
-
-
-	while (AdjecencyIterator != AdjecencyList.end())
-	{
-		
-		std::string nodeName = AdjecencyIterator->first;
-		std::map<std::string, Component*>::iterator nodeMapIterator = nodeObjecMap.find(nodeName);
-		Component* comptest = nodeMapIterator->second;
-		bool executeValue = comptest->execute();
-		std::vector<Component*> edgeVector = AdjecencyIterator->second;
-		std::vector<std::string> it;
-		for (std::vector<Component*>::iterator it = edgeVector.begin(); it != edgeVector.end(); ++it)
-		{
-			(*it)->setInputs(executeValue);
-		}
-		AdjecencyIterator++;
-	}
-
-
-	// code can be uncommented to test outputs
-	/*std::map<std::string, Component*>::iterator nodeMapIterator1 = nodeObjecMap.find("S");
-	Component* component1 = nodeMapIterator1->second;
-
-	bool valueS = component1->execute();
-
-	std::map<std::string, Component*>::iterator nodeMapIterator2 = nodeObjecMap.find("Cout");
-	Component* component2 = nodeMapIterator2->second;
-
-	bool valueCout = component2->execute();
-
-	std::cout << "Value S is: " << valueS << std::endl;
-
-	std::cout << "Value Cout is: " << valueCout << std::endl;*/
-
 }

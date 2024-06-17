@@ -6,18 +6,16 @@
 #
 # Description of all the nodes
 #
-A:	INPUT_LOW;
-B:	INPUT_LOW;
+A:	INPUT_HIGH;
+B:	INPUT_HIGH;
 Cout:	PROBE;
 S:	PROBE; 
-NODE1:	OR;
-NODE2:	AND;
+NODE1:	XOR;
 
 #
 #
 # Description of all the edges
 #
-A:	NODE1,NODE2;
-B:	NODE1,NODE2;
-NODE1:	Cout;
-NODE2:	S;
+A:	NODE1;
+B:	NODE1;
+NODE1:	S,Cout;

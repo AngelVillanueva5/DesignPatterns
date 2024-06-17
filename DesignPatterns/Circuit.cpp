@@ -1,40 +1,59 @@
 #include "Circuit.h"
 
+Circuit* Circuit::mCircuit = nullptr;
+
 Circuit::Circuit() {}
 
-void Circuit::initializeCircuit()
+bool Circuit::initializeCircuit(std::string fileString)
 {
 	std::map<std::string, std::string> nodes;
 	std::map<std::string, std::vector<std::string>> adjList;
 
-	file.fileOpen("D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/CIRCUIT3.TXT");
+	file.fileOpen(fileString);
 
 	file.fileRead(nodes, adjList);
 
 	file.fileClose();
 
-	graph.generateNodes(nodes);
+	if (checkLoops(adjList) == false)
+	{
+		return false;
+	}
+
+	if (graph.generateNodes(nodes) == false)
+	{
+		std::cout << "Exiting due to invalid file" << std::endl;
+		return false;
+	}
+
 	graph.generateEdges(adjList);
+
+	return true;
 }
 
-bool Circuit::checkLoops()
+
+// Checks for faults in the circuit such as loops
+bool Circuit::checkLoops(std::map<std::string, std::vector<std::string>> adjList)
 {
-	/*std::vector<std::string> insertOrder = file.getInsertOrder();
-
-	for (const std::string& insert : insertOrder)
+	std::vector<std::string> nodeList = file.getInsertOrder();
+	std::map<std::string, std::vector<std::string>>::iterator adjListIterator = adjList.begin();
+	for (int nodeListIterator = 0; nodeListIterator < nodeList.size(); nodeListIterator++)
 	{
-		std::map<std::string, Component*>::iterator nodeIterator = nodeObjecMap.find(insert);
-		std::map<std::string, std::vector<Component*>>::iterator adjecencyIterator = AdjecencyList.find(insert);
+		std::map<std::string, std::vector<std::string>>::iterator adjecencyIterator = adjList.find(nodeList[nodeListIterator]);
+		std::vector<std::string> test2 = adjecencyIterator->second;
 
-		Component* executeComponent = nodeIterator->second;
-		std::vector<Component*> edgeVector = adjecencyIterator->second;
-
-		bool executeValue = executeComponent->execute();
-		for (std::vector<Component*>::iterator it = edgeVector.begin(); it != edgeVector.end(); ++it)
+		for (const std::string& edge : test2)
 		{
-			(*it)->setInputs(executeValue);
+			for (int edgeIterator = 0; edgeIterator < nodeListIterator; edgeIterator++)
+			{
+				if (nodeList[edgeIterator] == edge)
+				{
+					std::cout << "faulty circuit" << std::endl;
+					return false;
+				}
+			}
 		}
-	}*/
+	}
 
 	return true;
 }
@@ -59,11 +78,13 @@ void Circuit::simulateCircuit()
 		Component* executeComponent = nodeIterator->second;
 		std::vector<Component*> edgeVector = adjecencyIterator->second;
 
+
 		bool executeValue = executeComponent->execute();
 		for (std::vector<Component*>::iterator it = edgeVector.begin(); it != edgeVector.end(); ++it)
 		{
 			(*it)->setInputs(executeValue);
 		}
+
 	}
 
 	// code can be uncommented to test outputs
@@ -82,5 +103,17 @@ void Circuit::simulateCircuit()
 	std::cout << "Value Cout is: " << valueCout << std::endl;
 
 	file.fileWrite(valueS, valueCout);
-		
+
+}
+
+
+// Singleton design pattern
+Circuit& Circuit::getInstance()
+{
+	if (mCircuit == nullptr)
+	{
+		mCircuit = new Circuit;
+	}
+
+	return *mCircuit;
 }

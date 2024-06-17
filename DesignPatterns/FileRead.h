@@ -16,6 +16,8 @@ public:
 	void fileClose();
 	void fileRead(std::map<std::string, std::string>& nodes, std::map<std::string, std::vector<std::string>>& adjList);
 
+	bool checkInserts(std::map<std::string, std::string>& nodes);
+
 	void fileWrite(bool S, bool Cout);
 	std::vector<std::string> getInsertOrder();
 

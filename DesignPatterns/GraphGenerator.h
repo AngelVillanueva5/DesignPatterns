@@ -9,10 +9,8 @@ public:
 	GraphGenerator();
 
 	void generateGraph();
-	void generateNodes(std::map<std::string, std::string>& nodes);
-	void generateEdges(std::map<std::string, std::vector<std::string>> edgeList);
-
-	void executeAdjList();
+	bool generateNodes(std::map<std::string, std::string>& nodes);
+	bool generateEdges(std::map<std::string, std::vector<std::string>> edgeList);
 
 	std::map<std::string, std::vector<Component*>> getAdjecencyList();
 	std::map<std::string, Component*> getNodeList();

@@ -1,22 +1,34 @@
-
 #include "Xor.h"
+
 Xor Xor::m_cInstance("XOR");
-Xor::Xor() : Component() {
-    if (inputs.size() > 1) {
-        std::cout << "too many inputs in Xor component" << std::endl;
-    }
-}
-Xor::Xor(std::string id) : Component(id) {
-    if (inputs.size() > 2) {
-        std::cout << "too many inputs in Input component" << std::endl;
-    }
-}
-Xor::~Xor() {
+Xor::Xor() : Component()
+{
 
 }
-Component* Xor::clone() const {
+
+Xor::Xor(std::string id) : Component(id)
+{
+
+}
+
+Xor::~Xor()
+{
+
+}
+
+Component* Xor::clone() const
+{
     return new Xor;
 }
 bool Xor::execute() {
-    return (!inputs[0]);
+    bool returnState = 0;
+    for (int i = 0; i < inputs.size(); i++)
+    {
+        
+        if (inputs[i] == true)
+        {
+            returnState = !returnState;
+        }
+    }
+    return returnState;
 }

@@ -54,6 +54,12 @@
     <ClCompile Include="Circuit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Nor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Composite.h">
@@ -96,6 +102,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Circuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

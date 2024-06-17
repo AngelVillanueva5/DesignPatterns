@@ -2,11 +2,23 @@
 //
 
 #include "Circuit.h"
+#include <filesystem>
+#include <string>
+#include <iostream>
 
-int main()
+int main(int argc, const char* argv[])
 {
-	Circuit circuit;
-	circuit.initializeCircuit();
+    //std::string argPath = argv[1];
+	std::string argPath = "D:/SchoolPresentaties/GRINDSET/DesignPatterns/circuits/circuitTest.txt";
+	Circuit& circuit = Circuit::getInstance();
+	if (circuit.initializeCircuit(argPath) == false)
+	{
+		return -1;
+	}
+
 	circuit.simulateCircuit();
+	
+
+	delete& Circuit::getInstance();
 }
 

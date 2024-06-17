@@ -8,11 +8,13 @@ class Circuit
 public:
 	Circuit();
 	
-	void initializeCircuit();
+	bool initializeCircuit(std::string file);
 	void simulateCircuit();
-	bool checkLoops();
+	bool checkLoops(std::map<std::string, std::vector<std::string>> adjList);
+
+	static Circuit& getInstance();
 private:
 	FileRead file;
 	GraphGenerator graph;
-
+	static Circuit* mCircuit;
 };

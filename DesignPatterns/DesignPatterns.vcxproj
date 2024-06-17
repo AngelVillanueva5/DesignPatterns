@@ -136,6 +136,8 @@
     <ClCompile Include="GraphGenerator.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Nand.cpp" />
+    <ClCompile Include="Nor.cpp" />
     <ClCompile Include="Not.cpp" />
     <ClCompile Include="Or.cpp" />
     <ClCompile Include="Probe.cpp" />
@@ -152,6 +154,8 @@
     <ClInclude Include="GraphGenerator.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Nand.h" />
+    <ClInclude Include="Nor.h" />
     <ClInclude Include="Not.h" />
     <ClInclude Include="Or.h" />
     <ClInclude Include="Probe.h" />
